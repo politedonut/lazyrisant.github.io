@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(8, 8, 124);
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    height: 72px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(8, 8, 124);
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 162px 181px / 110px;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+    border-radius: 296px 299px / 114px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:white; 
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin: 0 26px;
+}
+.search input{
+    width: 32vw;
+    height: 25px;
+    border-radius: 4px;
+    margin: 0 12px 0 2px;
+    border: 2px solid black;
+    padding: 0 8px;
+}
+.buttonshop {
+    padding: 12px 24px; 
+    background-color: #ff5722; 
+    color: #fff;  
+    border: none; 
+    border-radius: 3px
+    font-size: 18px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease-in-out; 
+  }
+  
+  .buttonshop:hover {
+    background-color: #e64a19; 
+    transform: scale(1.05); 
+  }
+  
+  
+.search button{
+    font-family: 'Fira Sans', sans-serif;
+}
+.slider{
+    margin:12px auto;
+    width:80vw;
+    display: flex;
+}
+.slider img{
+    margin:12px auto;
+    width: 55vw;
+}
+.cap{
+    font-size: 45px;
+    display: flex;
+}
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+}
+.card{
+    max-width: 92vw;
+    margin: auto;
+}
+.card h2{
+    font-family: 'Playfair Display', serif;
+    margin: 17px 0px;
+}
+.cards{
+    overflow: scroll;
+    display: flex;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 13px;
+    cursor: pointer;
+}
+.card-item:hover{
+    font-weight: bolder;    
+}
+footer{
+    height: 20vh;
+    background-color: rgb(8, 8, 124);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Styles for cart icon */
+.cart-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 9999;
+    color: #e64a19;
+}
+
+.cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: rgb(41, 197, 17);
+    color: rgb(214, 219, 217);
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 12px;
+}
+
