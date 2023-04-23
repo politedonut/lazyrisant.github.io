@@ -27,14 +27,20 @@
             color: deepskyblue;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
           }
+          .contact{
+            background-color: coral;
+          }
           
-          
-        
     </style>
     
 </head>
 
 <body>
+    <div id="video-popup" class="video-popup">
+        <video id="video-player" class="video-player" src="images/www.almari.com.mp4" autoplay controls></video>
+      </div>
+    
+      <script src="script.js"></script>
     <div class="cart-icon">
         <i class="fas fa-shopping-cart"></i>
         <span class="cart-badge">3</span>
@@ -47,9 +53,9 @@
             <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact us</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="Register.html">Resgister</a></li>
+                <li><a href="#co">Contact us</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Signup.html">Signup</a></li>
             </ul>
             <div class="search">
                 <input type="text" name="" id="" placeholder="Search For NFT's , Furnitures & etc">
@@ -61,7 +67,7 @@
         <div class="container">
             <div class="slider">
                 
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuwfT4zdsACXeBCIj9t6YmZDnMokBrin8YVQ&usqp=CAU" alt="">
+                    <img src="images/Screenshot 2023-04-23 182312.png" alt="">
                 
             </div>
             <div class="card">
@@ -112,7 +118,8 @@
                     <div class="card-item">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoB27pw7FopNo0XQuWRmw3xWIDMEPwFfoEdA&usqp=CAU" alt="">
                         <div class="lines">
-                            <p class="text-center my-1">50-70%off</p>
+                            <p class="text-center my-1">Apple Products<br>
+                                upto 20% off</p>
                             
                             <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">Add to cart</button></p>
                         </div>
@@ -120,35 +127,36 @@
                     <div class="card-item">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvl3EIP1k8XO5dbGs4RZ5kH74yyvRosBMX_Q&usqp=CAU" alt="">
                         <div class="lines">
-                            <p class="text-center my-1">Min 40%off</p>
+                            <p class="text-center my-1">
+                                Infinix Products
+                                <br>Min 10%off</p>
                             <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">Add to cart</button></p>
                         </div>
                     </div>
-                    <div class="card-item">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJEn64JVF6FnQ6VYD7fND_sdP00XXhcewIw&usqp=CAU" alt="">
-                        <div class="lines">
-                            <p class="text-center my-1">60-70%off</p>
-                            <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">Add to cart</button></p>
-                        </div>
-                    </div>
+                    
                     <div class="card-item">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVBdRLl1U_Avk1Xm2r1O_S-zyxFp46AyNMfw&usqp=CAU" alt="">
                         <div class="lines">
-                            <p class="text-center my-1">40-50%off</p>
+                            <p class="text-center my-1">
+                                Samsung Products
+                                <br>30%off</p>
                             <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">Add to cart</button></p>
                         </div>
                     </div>
                     <div class="card-item">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXZk7wnG8icjzmVX_wqAsJ6TWA6jLfQPQnXQ&usqp=CAU" alt="">
                         <div class="lines">
-                            <p class="text-center my-1">Min 60%off</p>
+                            <p class="text-center my-1">Wiko Mobiles<br>
+                                upto 30%off</p>
                             <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">Add to cart</button></p>
                         </div>
                     </div>
                     <div class="card-item">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpIxqLK7wwuyh6YcWutoXNT8uRS_-WZZbCiQ&usqp=CAU" alt="">
                         <div class="lines">
-                            <p class="text-center my-1">20-30%off</p>
+                            <p class="text-center my-1">
+                                Iphone(Refurbished)<br>
+                                upto 20%off</p>
                             <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">Add to cart</button></p>
                         </div>
                     </div>
@@ -160,7 +168,7 @@
                     <div class="card-item">
                         <img src="https://rukminim1.flixcart.com/image/200/200/jrntbbk0/living-room-chair/t/q/r/brown-plywood-own0302-supreme-brown-original-imafazfna96kde96.jpeg?q=70" alt="">
                         <div class="lines">
-                            <p class="text-center my-1">Outdoors Chairs</p>
+                            <p class="text-center my-1">Outd doors chair</p>
                             <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">Add to cart</button></p>
                         </div>
                     </div>
@@ -168,41 +176,41 @@
                         <img src="https://rukminim1.flixcart.com/image/200/200/k6mibgw0/recliner/8/q/d/grey-cotton-rc01-livzing-original-imafpfr7nhf6razb.jpeg?q=70" alt="">
                         <div class="lines">
                             <p class="text-center my-1">Recliner</p>
-                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">Add to cart</button></p>
+                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">View More</button></p>
                         </div>
                     </div>
                     <div class="card-item">
                         <img src="https://rukminim1.flixcart.com/image/200/200/jraycnk0/kitchen-cabinet/n/g/2/particle-board-fdidbupbmtbg68192i-evok-biege-original-imafd4u9yjeqfhc4.jpeg?q=70" alt="">
                         <div class="lines">
                             <p class="text-center my-1">Kitchen Cabinets</p>
-                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">Add to cart</button></p>
+                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">View More</button></p>
                         </div>
                     </div>
                     <div class="card-item">
                         <img src="https://rukminim1.flixcart.com/image/200/200/k9u8zgw0/bar-cabinet/d/f/b/rosewood-sheesham-double-door-bar-shagoon-furniture-house-honey-original-imafrjdsrrgmxfvh.jpeg?q=70" alt="">
                         <div class="lines">
                             <p class="text-center my-1">Bar Cabinets</p>
-                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">Add to cart</button></p>
+                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">View More</button></p>
                         </div>
                     </div>
                     <div class="card-item">
                         <img src="https://rukminim1.flixcart.com/image/200/200/kb9ou4w0/tv-entertainment-unit/f/x/h/particle-board-za0022wh-barewether-white-with-walnut-original-imafsnnntmvsysap.jpeg?q=70" alt="">
                         <div class="lines">
                             <p class="text-center my-1">TV Units</p>
-                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">Add to cart</button></p>
+                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">View More</button></p>
                         </div>
                     </div>
                     <div class="card-item">
                         <img src="https://rukminim1.flixcart.com/image/200/200/kdt50nk0/portable-laptop-table/m/h/g/plywood-c45c-lsm-furn-master-blue-original-imafumzmu9xqzvxw.jpeg?q=70" alt="">
                         <div class="lines">
                             <p class="text-center my-1">Portable Laptop Table</p>
-                            <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">Add to cart</button></p>                        </div>
+                            <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">View More</button></p>                        </div>
                     </div>
                     <div class="card-item">
                         <img src="https://rukminim1.flixcart.com/image/200/200/k687wy80/office-study-table/y/h/f/particle-board-vi-ct-ph-ost-wb-13-flipkart-perfect-homes-studio-original-imafzkwv94yn5bhg.jpeg?q=70" alt="">
                         <div class="lines">
                             <p class="text-center my-1">Office Study Table</p>
-                            <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">Add to cart</button></p>                        </div>
+                            <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">View More</button></p>                        </div>
                     </div>
                 </div>
             </div>
@@ -214,50 +222,70 @@
                         <img src="https://rukminim1.flixcart.com/image/200/200/jkybwcw0/remote-control-toy/z/h/b/big-and-mean-rock-crawling-1-20-scale-modified-off-road-hummer-original-imaeujsgdp2cf5rb.jpeg?q=70" alt="">
                         <div class="lines">
                             <p class="text-center my-1">Remote Control Toys</p>
-                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">Add to cart</button></p>                        </div>
+                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">View More</button></p>                        </div>
                     </div>
                     <div class="card-item">
                         <img src="https://rukminim1.flixcart.com/image/200/200/kesv0y80/skate/r/y/m/1-7-drift-100bk-1-na-quad-roller-adrenex-by-flipkart-original-imafvem8gsgqfqjk.jpeg?q=70" alt="">
                         <div class="lines">
                             <p class="text-center my-1">Skates</p>
-                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">Add to cart</button></p>                        </div>
+                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">View More</button></p>                        </div>
                     </div>
                     <div class="card-item">
                         <img src="https://rukminim1.flixcart.com/image/200/200/kdyus280/electronic-hobby-kit/z/h/g/combo-for-diy-incubator-w1209-12v-dc-digital-temperature-original-imafuqgttkefnvpr.jpeg?q=70" alt="">
                         <div class="lines">
                             <p class="text-center my-1">Electonics Hobby kits</p>
-                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">Add to cart</button></p>                        </div>
+                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">View More</button></p>                        </div>
                     </div>
                     <div class="card-item">
                         <img src="https://rukminim1.flixcart.com/image/200/200/jxgflow0/ab-exerciser/a/g/b/tummy-trimmer-ab-exerciser-ttfksi1920bl-adrenex-by-flipkart-original-imafhvtkueychefn.jpeg?q=70" alt="">
                         <div class="lines">
                             <p class="text-center my-1">Abs Exerciser</p>
-                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">Add to cart</button></p>                        </div>
+                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">View More</button></p>                        </div>
                     </div>
                     <div class="card-item">
                         <img src="https://rukminim1.flixcart.com/image/200/200/k7m8brk0/bag/g/a/g/avengers-super-heroes-marvel-30-original-imafpt9fyeazy3gf.jpeg?q=70" alt="">
                         <div class="lines">
                             <p class="text-center my-1">School Bags</p>
-                            <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">Add to cart</button></p>                        </div>
+                            <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">View More</button></p>                        </div>
                     </div>
                     <div class="card-item">
                         <img src="https://rukminim1.flixcart.com/image/200/200/jievpu80/biometric-device/e/n/a/fm-220u-startek-original-imaf67pktbrtd69c.jpeg?q=70" alt="">
                         <div class="lines">
                             <p class="text-center my-1">Biometrics Devices</p>
-                            <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">Add to cart</button></p>                        </div>
+                            <p class="text-center my-1"><button class="buttonshop"  onclick="addToCart()">View More</button></p>                        </div>
                     </div>
                     <div class="card-item">
                         <img src="https://rukminim1.flixcart.com/image/200/200/jfmuw7k0/ball/7/j/p/420-470-22-storm-1-niviafb353-football-nivia-original-imaf42fybtxafz42.jpeg?q=70" alt="">
                         <div class="lines">
                             <p class="text-center my-1">Footballs</p>
-                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">Add to cart</button></p>                        </div>
+                            <p class="text-center my-1"><button class="buttonshop" onclick="addToCart()">View More</button></p>                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <div class="contact">
     <br>
+    <p id="co"><b>Contact us</b></p>
+    <a href="https://www.instagram.com/risantsjhshsnamsk" target="_main">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+     
+    <br>
+    
+    <a href="https://www.facebook.com/profile.php?id=100086843384937" target="_main">
+    <i class="fab fa-facebook-f"></i>
+    </a>
+    <br>
+    
+    <a href="mailto:almari@gmail.com" target="_self">
+    <i class="fa-regular fa-envelope"></i>
+    </a>
     <footer class="flex-center">
+       
+    </div>
+          
+        
         <p>Copyright &copy; NCCS 11"k"</p>
     </footer>
 </body>
