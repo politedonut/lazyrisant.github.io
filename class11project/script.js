@@ -1,3 +1,4 @@
-// Update cart item count dynamically
-var cartItemCount=0; // Replace with your actual cart item count
+window.alert("Under Construction")
+
+var cartItemCount = 0; 
 document.getElementById('cartItemCount').textContent = cartItemCount;
