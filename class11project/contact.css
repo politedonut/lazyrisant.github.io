@@ -1,0 +1,40 @@
+.contact-us {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-us h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .contact-us p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .contact-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .contact-icons li img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  
+  .contact-icons li img:hover {
+    opacity: 0.8;
+  }
+  
