@@ -1,24 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Sign Up</title>
-    <link rel="stylesheet" type="text/css" href="signup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+    <style>
+        .srouce{
+            text-align: center;
+            color: #ffffff;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Sign Up To Almari</h1>
-        <form>
-            <input type="text" placeholder="Full Name" name="fullname" required>
-            <input type="email" placeholder="Email" name="email" required>
-            <input type="password" placeholder="Password" name="password" required>
-            <input type="password" placeholder="Confirm Password" name="confirmpassword" required>
 
-            
-            <input type="submit" value="Sign up" onclick="window.location.href='index.html';">
+    <div class="main-container">
+        <div class="form-container">
 
-        <div class="login-link">
-            Already have an account? <a href="Login.html">Login</a>
+            <div class="srouce"><a title="login to almari" href="index.html">Redirect to home page</a></div>
+
+            <div class="form-body">
+                <h2 class="title">Signup with</h2>
+                <div class="social-login">
+                    <ul>
+                        <li class="google"><a href="ww.google.com">Google</a></li>
+                        <li class="fb"><a href="www.facebook.com">Facebook</a></li>
+                    </ul>
+                </div>
+
+                <div class="_or">or</div>
+
+                <form action="index.html" class="the-form">
+                     <div>
+                    <label for="useranme">Username</label>
+                    <input type="username" name="Name" id="email" placeholder="Enter your username">
+                </div>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+
+                    <a href="index.html"><input type="submit" value="Sign up"></a>
+
+
+                </form>
+
+            </div>
+
+            <div class="form-footer">
+                <div>
+                    <span>Have an acoount?</span> <a href="login.html">login</a>
+                </div>
+            </div>
+
         </div>
     </div>
+
 </body>
 </html>

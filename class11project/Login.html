@@ -1,23 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <style>
+        .srouce{
+            text-align: center;
+            color: #ffffff;
+            padding: 10px;
+        }
+        .sign{
+            color: blue;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="h1">Login to almari</h1>
-        <form>
-            <input type="text" placeholder="Username" name="username" required>
-            <input type="password" placeholder="Password" name="password" required>
 
-            <input type="submit" value="Login" onclick="window.location.href='index.html';">
-            
-            
-        </form>
-        <div class="signup-link">
-            Don't have an account? <a href="Signup.html">Sign up</a>
+    <div class="main-container">
+        <div class="form-container">
+
+            <div class="srouce"><a title="login to almari" href="index.html"> Redirect to home page</a></div>
+
+            <div class="form-body">
+                <h2 class="title">Log in with</h2>
+                <div class="social-login">
+                    <ul>
+                        <li class="google"><a href="ww.google.com">Google</a></li>
+                        <li class="fb"><a href="www.facebook.com">Facebook</a></li>
+                    </ul>
+                </div>
+
+                <div class="_or">or</div>
+
+                <form action="" class="the-form">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+
+                    <a href="index.html"> <input type="submit" value="Log In">
+
+                </form>
+
+            </div>
+
+            <div class="form-footer">
+                <div>
+                    <span>Don't have an account?</span> <a href="signup.html" class="sign">Sign Up</a>
+                </div>
+            </div>
+
         </div>
     </div>
+
 </body>
 </html>
